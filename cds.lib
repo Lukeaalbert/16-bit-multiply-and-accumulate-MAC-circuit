@@ -1,0 +1,14 @@
+include ~ee577/CDS_GPDK45/gpdk045_v_5_0/cds.lib
+include ~ee577/CDS_GPDK45/gsclib045_svt_mini_v4.4/cds.lib
+DEFINE inverter_demo /home/viterbi/06/lpalbert/work_gpdk045/inverter_demo
+DEFINE demo_lab1 /home/viterbi/06/lpalbert/work_gpdk045/demo_lab1
+#Removed by ddDeleteObj: DEFINE lab2 /home/viterbi/06/lpalbert/work_gpdk045/lab2
+DEFINE test /home/viterbi/06/lpalbert/work_gpdk045/test
+DEFINE lab2_ /home/viterbi/06/lpalbert/work_gpdk045/lab2_
+DEFINE xor_tb /home/viterbi/06/lpalbert/work_gpdk045/xor_tb
+#Removed by ddDeleteObj: DEFINE lab3 /home/viterbi/06/lpalbert/work_gpdk045/lab3
+#Removed by ddDeleteObj: DEFINE lab3 /home/viterbi/06/lpalbert/work_gpdk045/lab3
+DEFINE lab3 /home/viterbi/06/lpalbert/work_gpdk045/lab3
+DEFINE FFs /home/viterbi/06/lpalbert/work_gpdk045/FFs
+DEFINE adder_improved /home/viterbi/06/lpalbert/work_gpdk045/adder_improved
+DEFINE carry_save_addition /home/viterbi/06/lpalbert/work_gpdk045/carry_save_addition

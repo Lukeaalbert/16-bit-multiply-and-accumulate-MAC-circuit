@@ -1,0 +1,17 @@
+//Revision 4
+config in_tb;
+design demo_lab1.in_tb:schematic;
+liblist GSCLIB045, analogLib, basic, demo_lab1, gpdk045, gsclib045, gsclib045_tech, inverter_demo, sheets;
+
+viewlist abstract, ahdl, autolayout, behavioral, cdsSpice, cmos_sch, functional, hpmns, hspiceS, libra, mharm, schematic, spectre, spectreS, symbol, system;
+stoplist spectre;
+
+
+cell demo_lab1.INV1X binding :av_extracted;
+cell demo_lab1.NOR2_1X binding :av_extracted;
+cell demo_lab1.INV2X binding :av_extracted;
+cell demo_lab1.NOR2_2X binding :av_extracted;
+cell demo_lab1.NAND2_2X binding :av_extracted;
+
+
+endconfig
