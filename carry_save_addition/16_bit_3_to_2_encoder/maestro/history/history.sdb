@@ -3,15 +3,15 @@
 	<active>Active Setup</active>
 	<history>History
 		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
-			<timestamp>Nov 16 13:05:04 2025</timestamp>
-			<uuid>{7c3e7e8b-f6a2-47a5-9e7c-ac97623973ae}</uuid>
+			<timestamp>Nov 19 09:21:27 2025</timestamp>
+			<uuid>{d45725f3-33df-4993-8da2-ed9ed74926c0}</uuid>
 			<locked>0</locked>
 			<mode>Single Run, Sweeps and Corners</mode>
-			<resultsname>/home/viterbi/06/lpalbert/work_gpdk045/carry_save_addition/16_bit_3_to_2_encoder/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<resultsname>/home/viterbi/08/vemurina/work_gpdk045/16-bit-multiply-and-accumulate-MAC-circuit/carry_save_addition/16_bit_3_to_2_encoder/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
-			<runlog>/home/viterbi/06/lpalbert/work_gpdk045/carry_save_addition/16_bit_3_to_2_encoder/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlog>/home/viterbi/08/vemurina/work_gpdk045/16-bit-multiply-and-accumulate-MAC-circuit/carry_save_addition/16_bit_3_to_2_encoder/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
-			<psfdir>/home/viterbi/06/lpalbert/simulation/carry_save_addition/16_bit_3_to_2_encoder/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<psfdir>/home/viterbi/08/vemurina/simulation/carry_save_addition/16_bit_3_to_2_encoder/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
 			<simdir>$AXL_PROJECT_DIR/carry_save_addition/16_bit_3_to_2_encoder/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
 		</historyentry>
 	</history>

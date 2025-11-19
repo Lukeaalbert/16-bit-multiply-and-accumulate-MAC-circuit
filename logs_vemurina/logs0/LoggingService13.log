@@ -1,0 +1,3 @@
+[Logging Service: 13]
+[2025-11-19 12:04:42.645 -0800] [INFO] [cadence.virtuoso.ade.loggingservice] - HistoryRecorderManager init {"dbBasePath": "/home/viterbi/08/vemurina/work_gpdk045/16-bit-multiply-and-accumulate-MAC-circuit/carry_save_addition/16_bit_6_to_2_encoder/maestro/results/maestro"}
+[2025-11-19 12:04:42.645 -0800] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service has successfully started. Waiting for incoming messages ... {"hostname": "viterbi-scf2", "processid": 173193, "logfile": "/home/viterbi/08/vemurina/work_gpdk045/16-bit-multiply-and-accumulate-MAC-circuit/logs_vemurina/logs0/LoggingService13.log"}

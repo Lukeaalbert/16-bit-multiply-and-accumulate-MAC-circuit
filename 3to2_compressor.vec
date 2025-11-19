@@ -1,0 +1,46 @@
+; Vector file for 16-bit 3-to-2 Compressor
+; Part B: Functionality Verification
+; VDD = 1.0V, Rise time = Fall time = 10ps
+;
+; Inputs: a0-a15, b0-b15, c0-c15 (48 inputs total)
+; Outputs: out0_0-out0_15, out1_0-out1_15 (32 outputs total)
+;
+; Test Case Values (in hex):
+;   TC1: A=0x3524, B=0x5E81, C=0xD609
+;   TC2: A=0x5663, B=0x7B0D, C=0x998D
+;   TC3: A=0x8465, B=0x5212, C=0xE301
+;   TC4: A=0xCD0D, B=0xF176, C=0xCD3D
+;   TC5: A=0x57ED, B=0xF78C, C=0xE9F9
+;   TC6: A=0x24C6, B=0x84C5, C=0xD2AA
+
+radix 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+
+io i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i i o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o
+
+vname a0 a1 a2 a3 a4 a5 a6 a7 a8 a9 a10 a11 a12 a13 a14 a15 b0 b1 b2 b3 b4 b5 b6 b7 b8 b9 b10 b11 b12 b13 b14 b15 c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 c10 c11 c12 c13 c14 c15 out0_0 out0_1 out0_2 out0_3 out0_4 out0_5 out0_6 out0_7 out0_8 out0_9 out0_10 out0_11 out0_12 out0_13 out0_14 out0_15 out1_0 out1_1 out1_2 out1_3 out1_4 out1_5 out1_6 out1_7 out1_8 out1_9 out1_10 out1_11 out1_12 out1_13 out1_14 out1_15
+
+; tunit sets the time unit.
+tunit ns
+; trise specifies the rise time of each input vector.
+trise 0.01
+; tfall specifies the fall time of each input vector.
+tfall 0.01
+; vih specifies the logic high voltage of each input vector.
+vih 1.0
+; vil specifies the logic low voltage of each input vector
+vil 0.0
+
+; Test Case: A=0x0000, B=0x0000, C=0x0000
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+; Test Case: A=0x3524, B=0x5E81, C=0xD609
+1 0 0 1 0 0 1 0 0 1 0 1 0 1 1 0 0 1 0 0 0 0 0 0 1 0 1 1 1 1 0 1 0 1 0 0 1 0 0 0 0 0 1 1 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+; Test Case: A=0x5663, B=0x7B0D, C=0x998D
+2 1 1 0 0 0 1 1 0 0 1 1 0 1 0 1 0 1 0 1 1 0 0 0 0 1 1 0 1 1 1 1 0 1 0 1 1 0 0 0 1 1 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+; Test Case: A=0x8465, B=0x5212, C=0xE301
+3 1 0 1 0 0 1 1 0 0 0 1 0 0 0 0 1 0 1 0 0 1 0 0 0 0 1 0 0 1 0 1 0 1 0 0 0 0 0 0 0 1 1 0 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+; Test Case: A=0xCD0D, B=0xF176, C=0xCD3D
+4 1 0 1 1 0 0 0 0 1 0 1 1 0 0 1 1 0 1 1 0 1 1 1 0 1 0 0 0 1 1 1 1 1 0 1 1 1 1 0 0 1 0 1 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+; Test Case: A=0x57ED, B=0xF78C, C=0xE9F9
+5 1 0 1 1 0 1 1 1 1 1 1 0 1 0 1 0 0 0 1 1 0 0 0 1 1 1 1 0 1 1 1 1 1 0 0 1 1 1 1 1 1 0 0 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+; Test Case: A=0x24C6, B=0x84C5, C=0xD2AA
+6 0 1 1 0 0 0 1 1 0 0 1 0 0 1 0 0 1 0 1 0 0 0 1 1 0 0 1 0 0 0 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

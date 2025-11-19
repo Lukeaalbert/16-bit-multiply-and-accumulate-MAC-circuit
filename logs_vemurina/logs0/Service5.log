@@ -1,0 +1,79 @@
+\# Program start time:     UTC 2025.11.19 03:06:35.437
+\# Local time: PST (UTC-08:00) 2025.11.18 19:06:35.437
+\o Program:		@(#)$CDS: virtuoso version ICADVM20.1-64b 10/11/2023 09:26 (cpgbld01) $
+\o Hierarchy:		/usr/local/cadence/ICADVM201/tools.lnx86/dfII/
+\o Sub version:		sub-version  ICADVM20.1-64b.500.34  (64-bit addresses)
+\# Command line:	/usr/local/cadence/ICADVM201/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost viterbi-scf2 -beanport 11300 -beanbinlog  -beanLogFile /home/viterbi/08/vemurina/work_gpdk045/16-bit-multiply-and-accumulate-MAC-circuit/logs_vemurina/logs0/amps_Service5.log -mpssession virtuoso102224 -mpshost viterbi-scf2 -davinciService DaVinciService_102224_1763519050 -axlSession fnxSession1 -axlServiceIdFlag 5 -uuid 359bd38d-aa47-4a2f-8620-1ae095710327 -heartbeat /dev/shm/swift-heartbeat.aHlRDw05Eg -log /home/viterbi/08/vemurina/work_gpdk045/16-bit-multiply-and-accumulate-MAC-circuit/logs_vemurina/logs0/Service5.log -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D79FF971B9267CE2460E4905B952BCE2F3AE5C87CC806867966E38F1FFC06BC4D66E38F1FFC06BC4D0FFEBB27C83ED55000001E63 -interactive -offlineExprEval -fenixMode explorer -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Host name (type):	viterbi-scf2 (x86_64)
+\# Operating system:	Linux 3.10.0-1160.119.1.el7.tuxcare.els25.x86_64 #1 SMP Wed Oct 1 17:37:27 UTC 2025
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:6710 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12004000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        640 MB
+\# Available memory:	    910,203 MB
+\# System memory:	  1,031,208 MB
+\# Maximum memory size:	  1,030,858 MB
+\# Max mem available:	    910,494 MB
+\# Initial memory used:	        291 MB
+\#        process size:	      1,889 MB
+\# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 112.00/112.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		vemurina
+\o Working Directory:	viterbi-scf2:/home/viterbi/08/vemurina/work_gpdk045/16-bit-multiply-and-accumulate-MAC-circuit
+\# Process Id:		288433
+\o 
+\o COPYRIGHT (C) 1992-2023  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2023  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pegasusui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading layers.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\# Memory report: using         435 MB, process size 2,180 MB at UTC 2025.11.19 03:06:38.819
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 
+\o Loading simui.cxt 
+\# Memory report: on exit            438 MB, process size 2,183 MB at UTC 2025.11.19 03:06:38.836
+\# Memory report: peak usage         438 MB, process size 2,183 MB

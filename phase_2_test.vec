@@ -1,0 +1,12 @@
+radix 4444 4444 4444 
+io i i i 
+vname a[15:0] b[15:0] c[15:0]
+tunit ns
+trise 0.01
+tfall 0.01
+vih 1.0
+vil 0.0
+
+0 0000 0000 0000
+1 3524 5E81 D609
+2 5663 7B0D 998D

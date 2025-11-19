@@ -1,0 +1,19 @@
+#!/bin/sh
+
+cd "/home/viterbi/08/vemurina/work_gpdk045/16-bit-multiply-and-accumulate-MAC-circuit"
+
+export CDS_USE_XVFB=1
+export CDS_XVFB_MONITOR=0
+
+/usr/local/cadence/ICADVM201/tools.lnx86/dfII/bin/spectreMonitor -mpssession "virtuoso221452" -mpshost "viterbi-scf2" --davinciService DaVinciService_221452_1763572625 --axlsession fnxSession1 -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D79FF971B9267CE2460E4905B952BCE2F3AE7FC7CFC06867B66E38F1FFC06BC4D66E38F1FFC06BC4D0FFDADC5DEDCD55300001EB9 -beanhost "viterbi-scf2" -beanport 11300 -beanLogFile "/home/viterbi/08/vemurina/work_gpdk045/16-bit-multiply-and-accumulate-MAC-circuit/logs_vemurina/logs0/amps_Job14.log"  -beanbinlog "" --domain 0 --interactive yes --netlistOpt no --useMultiPointEvaluation yes --evalSimParallel no --maxSims 0 --historyName "ExplorerRun.0" --historyUUID ""  --exprEvaluator vds --mcMapping mc1.mapping --checkLogStatusInterval 0  --exprEvalMaxTries 3  --maxNFSSyncWait 60  --virtuosoBinary "virtuoso" --guiDisplay viterbi-scf2:6 --globalStatus 60  --evaluateMultiMC yes --evalOnSimFail SkipFailedAnalyses --numRetriesOnError 1 --fenixMode explorer --lingertimeout 300 --sdbLib carry_save_addition --sdbCell 16_bit_6_to_2_encoder --sdbView maestro --heartBeatFileDir /dev/shm --id 14 --uuid "8936f22c-cb42-4b3a-b843-1ad48935b32a" --log "/home/viterbi/08/vemurina/work_gpdk045/16-bit-multiply-and-accumulate-MAC-circuit/logs_vemurina/logs0/Job14.log" &
+
+JOB_PID=$!
+HOST_NAME=$(hostname)
+printf "Simulation Monitor process '$JOB_PID' is starting up on host '$HOST_NAME'"
+wait $JOB_PID
+status=$?
+if [ $status != 0 ]; then
+  /usr/local/cadence/ICADVM201/tools.lnx86/bin/checkSysConf ICADVM20.1 > /home/viterbi/08/vemurina/work_gpdk045/16-bit-multiply-and-accumulate-MAC-circuit/logs_vemurina/logs0/Job14.log.checkSysConf
+fi
+exit $status
+

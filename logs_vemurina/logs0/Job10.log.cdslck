@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      vemurina
+HostName                       viterbi-scf2.usc.edu
+ProcessIdentifier              343242
+ProcessCreationTime_UTC        1763522802
+ProcessCreationTime_Readable   Tue Nov 18 19:26:42 2025 PST
+AppIdentifier                  Unknown Application
+OSType                         lnx86
+ReasonForPlacingEditLock       lock for simulation monitor log file
+FilePathUsedToEditLock         /home/viterbi/08/vemurina/work_gpdk045/16-bit-multiply-and-accumulate-MAC-circuit/logs_vemurina/logs0/Job10.log
+TimeEditLocked                 Tue Nov 18 19:26:42 2025 PST

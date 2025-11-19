@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      vemurina
+HostName                       viterbi-scf2.usc.edu
+ProcessIdentifier              221452
+ProcessCreationTime_UTC        1763572501
+ProcessCreationTime_Readable   Wed Nov 19 09:15:01 2025 PST
+AppIdentifier                  /usr/local/cadence/ICADVM201/tools/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       lock for logging service log file
+FilePathUsedToEditLock         /home/viterbi/08/vemurina/work_gpdk045/16-bit-multiply-and-accumulate-MAC-circuit/logs_vemurina/logs0/LoggingService13.log
+TimeEditLocked                 Wed Nov 19 12:04:42 2025 PST
