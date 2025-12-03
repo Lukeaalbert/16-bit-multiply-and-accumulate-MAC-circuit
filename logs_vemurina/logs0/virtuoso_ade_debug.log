@@ -322,3 +322,4 @@ Use the Stimuli Assignment form to assign stimuli definitions to these global na
  {"logfile": "/home/viterbi/08/vemurina/work_gpdk045/16-bit-multiply-and-accumulate-MAC-circuit/logs_vemurina/logs0/Job19.log"}
 [2025-11-19 13:26:02.309 -0800] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "ExplorerRun.0", "point": 1, "testname": "carry_save_addition_16_bit_6_to_2_encoder_1"}
 [2025-11-19 13:26:02.627 -0800] [EVENT] [cadence.virtuoso.ade.gui] - HistoryFinished {"history": "ExplorerRun.0", "point": 1, "testname": "carry_save_addition_16_bit_6_to_2_encoder_1", "event": "HistoryFinished", "EventSource": "ADE GUI", "HistoryName": "ExplorerRun.0"}
+[2025-11-19 13:41:10.267 -0800] [PROCESS] [cadence.virtuoso.ade.gui] - Logging Service '293206' stopped with exit code '0' {"logfile": "/home/viterbi/08/vemurina/work_gpdk045/16-bit-multiply-and-accumulate-MAC-circuit/logs_vemurina/logs0/LoggingService18.log"}

@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      vemurina
+HostName                       viterbi-scf2.usc.edu
+ProcessIdentifier              224153
+ProcessCreationTime_UTC        1764703666
+ProcessCreationTime_Readable   Tue Dec  2 11:27:46 2025 PST
+AppIdentifier                  /usr/local/cadence/ICADVM201/tools/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /home/viterbi/08/vemurina/work_gpdk045/16-bit-multiply-and-accumulate-MAC-circuit/carry_save_addition/16_bit_6_to_2_encoder/physConfig/physExpand.cfg
+TimeEditLocked                 Tue Dec  2 19:03:29 2025 PST
