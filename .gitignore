@@ -1,9 +1,6 @@
-cds.lib
 .cadence/
 *.cdslck
-*.oa
 *.log
 *.rdb
 ihnl/
 svdb/
-*cdslck*
