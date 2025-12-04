@@ -1,0 +1,10 @@
+//Revision 2
+config INV_1X_tb;
+design lab0.INV_1X_tb:schematic;
+liblist GSCLIB045, analogLib, basic, gpdk045, gsclib045, gsclib045_tech, lab0, sheets;
+
+viewlist abstract, ahdl, autolayout, behavioral, cdsSpice, cmos_sch, functional, hpmns, hspiceS, libra, mharm, schematic, spectre, spectreS, symbol, system;
+stoplist spectre;
+
+
+endconfig

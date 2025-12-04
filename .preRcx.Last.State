@@ -1,0 +1,14 @@
+
+
+vuipreRcxFormTable = '(
+	runName  "16_bit_6_to_2_encoder"
+	runDir  "/home/viterbi/08/vemurina/work_gpdk045/16-bit-multiply-and-accumulate-MAC-circuit/../LVS/svdb"
+	assuraTech  "/home/viterbi/08/vemurina/tech.def"
+	tech  "qrc_tech_typical"
+	mapFile  ""
+	netProp  5
+	instProp  6
+	devProp  7
+)
+
+

@@ -1,0 +1,6 @@
+#!/bin/sh -f
+#--------------------------------------------------------------------------------------
+# THE RUN FILE created by Cadence Extraction Quantus UI Version 22.1.1-p041
+#--------------------------------------------------------------------------------------
+
+qrc  -log_file /home/viterbi/08/vemurina/work_gpdk045/16-bit-multiply-and-accumulate-MAC-circuit/../LVS/svdb/qrc.16_bit_3_to_2_encoder.log -cmd /home/viterbi/08/vemurina/work_gpdk045/16-bit-multiply-and-accumulate-MAC-circuit/../LVS/svdb/qrc.16_bit_3_to_2_encoder.ccl 

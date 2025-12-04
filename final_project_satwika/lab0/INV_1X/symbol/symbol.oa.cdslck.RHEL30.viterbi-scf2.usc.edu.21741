@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      vemurina
+HostName                       viterbi-scf2.usc.edu
+ProcessIdentifier              21741
+ProcessCreationTime_UTC        1762110094
+ProcessCreationTime_Readable   Sun Nov  2 11:01:34 2025 PST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/viterbi/08/vemurina/work_gpdk045/lab0/INV_1X/symbol/symbol.oa.cdslck
+TimeEditLocked                 Mon Nov  3 10:28:50 2025 PST
